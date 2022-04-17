@@ -40,7 +40,6 @@ The higher the data volume(here, we means the input shape) is, the more signific
 1.In some cases, the fuse_CNN will be slower than the basic CNN, we still need to probe deeper into this issue.  
 2.Due to my busy schedule, i haven't tried to build a backbone network using this fuse_CNN unit for more experiments  
 3.Actually, for optimization, i also try to implement the optimization method proposed by this paper：  
-[Tensorfolding: Improving Convolutional Neural Network Performance with Fused Microkernels]  
-(https://sc18.supercomputing.org/proceedings/tech_poster/poster_files/post155s2-file3.pdf)  
+[Tensorfolding: Improving Convolutional Neural Network Performance with Fused Microkernels](https://sc18.supercomputing.org/proceedings/tech_poster/poster_files/post155s2-file3.pdf)  
 but this approach can't work for me, the reason still need to be mined.  
 4.Some parallel computing techniques and computation efficiency analysis still need to be adopted  
