@@ -3,7 +3,7 @@ import numpy as np
 
 def conv2D(X, W, stride, pad, dilation=0):
     s, d = stride, dilation
-    _, p = pad2D(X, pad, W.shape[:2], s, dilation=dilation)  # 进行填充0
+    _, p = pad2D(X, pad, W.shape[:2], s, dilation=dilation)
 
     pr1, pr2, pc1, pc2 = p
     fr, fc, in_ch, out_ch = W.shape
