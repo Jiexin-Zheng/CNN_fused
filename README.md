@@ -1,7 +1,7 @@
 # CNN_fused
 ## Introduction
-This is a reopsitory which implements convolutional neurall network basic unit using only numpy in Python  
-Also, this repository try to fuse batch normalization and convolution operation into one function to reduce the memory access
+This is a reopsitory which implements convolutional neural network basic unit using only numpy in Python  
+Also, this project tries to fuse batch normalization and convolution operation into one function to reduce the memory access
 
 ## Package required
 For now, numpy is the only package you need in this project
